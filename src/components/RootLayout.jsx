@@ -6,6 +6,7 @@ export default function RootLayout({footer}) {
     <div>
         <Header/>
         <Outlet/>
+      <footer className='bg-gray-200 p-7 mt-20'>{footer}</footer>
     </div>
   )
 }
